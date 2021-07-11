@@ -36,13 +36,20 @@ void state_advance()		/* alternate between toggling red & green */
 
   static enum {R=0, G=1} color = G;
   switch (color) {
-  case R: changed = toggle_red(); color = G; break;
+  case R: changed = toggle_red(); color = G; break; //call function inbtween red
   case G: changed = toggle_green(); color = R; break;
   }
 
   led_changed = changed;
   led_update();
 }
+//function for something 
 
-
-
+void turn_on_test()
+{
+  //led_update();
+  green_on=1;
+  led_changed=1;
+  led_update();
+  //mightg add else
+}
