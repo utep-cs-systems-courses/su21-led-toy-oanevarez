@@ -4,7 +4,6 @@
 #define LED_RED BIT6 //changed              // P1.0
 #define LED_GREEN BIT0        //flip back     // P1.6
 #define LEDS (BIT0 | BIT6)
-
 extern unsigned char red_on, green_on;
 extern unsigned char led_changed;
 

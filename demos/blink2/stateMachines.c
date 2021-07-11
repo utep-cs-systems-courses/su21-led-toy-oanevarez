@@ -1,7 +1,6 @@
 #include <msp430.h>
 #include "stateMachines.h"
 #include "led.h"
-
 char toggle_red()		/* always toggle! */
 {
   static char state = 0;
