@@ -3,5 +3,6 @@
 
 
 void turn_red();
+void turn_green();
 
 #endif 

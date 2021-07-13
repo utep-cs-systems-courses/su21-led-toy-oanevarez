@@ -9,3 +9,10 @@ void turn_red()
   led_changed=1;
   led_update();
 }
+
+void turn_green()
+{
+  green_on=1;
+  led_changed=1;
+  led_update();
+}
