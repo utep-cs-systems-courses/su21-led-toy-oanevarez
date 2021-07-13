@@ -1,7 +1,5 @@
 In this folder you'll find:
 
-blink2 - dim led &  blink led
-buzzer2 - speaker 
-button2 - tbd
+blink2 - handles led turning on with buttons and buzzer sounds with buttons
 
 
