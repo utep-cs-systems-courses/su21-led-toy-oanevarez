@@ -30,7 +30,7 @@ void turn_green() //button s2 turns on green led, and makes buzz noise
   }
 }
 
-void sound_on()
+void sound_on() //button s3 turn buzzer sound on to note C
 {
   if(switch_state_down_3){
     buzzer_set_period(2109);
