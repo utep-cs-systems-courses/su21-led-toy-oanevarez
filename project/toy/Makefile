@@ -20,7 +20,7 @@ load: blink.elf
 clean:
 	rm -f *.o *.elf *~
 
-led.o: led.c led.h
+led.o: ledC_s.s led.h #led.c
 
 wdInterruptHandler.o: stateMachines.h
 switches.o: switches.h
