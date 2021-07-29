@@ -43,7 +43,7 @@ led_update:
 	xor #0xff, LEDS
 	or LEDS, r14
 	and r14, P1OUT
-	or ledFLags, P1OUT
+	bis ledFLags, P1OUT
 	mov #0, led_changed
 	
 out:
